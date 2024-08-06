@@ -16,6 +16,10 @@ Reproducing the plots
 
 The plots in the article can be reproduced by Jupyter notebooks in ```scripts/```.
 
+To run the notebooks, you need to install packages in ```requirements.txt```.
+
+If some packages are missing, the full list of packages is described in ```environment.yml```.
+
 1. SRBM-scaling_analysis.ipynb: Reproducing the plots for SRBM data
 2. TSmodel-scaling_analysis.ipynb: Reproducing the plots for teacher-student model data.
 
