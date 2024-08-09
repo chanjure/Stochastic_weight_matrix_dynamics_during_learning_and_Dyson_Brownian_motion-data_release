@@ -2,13 +2,9 @@
 # coding: utf-8
 
 import argparse
-import time
 
 import numpy as np
 import os
-import matplotlib.pyplot as plt
-import matplotlib.font_manager as fm
-from matplotlib import rc, rcParams
 
 from scipy.stats import ortho_group
 
