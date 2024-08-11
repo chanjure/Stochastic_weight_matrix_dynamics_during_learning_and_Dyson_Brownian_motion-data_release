@@ -2,7 +2,6 @@
 *.txt
 models
 .ipynb_checkpoints
-run_check.sh
 test
 *.swp
 .pytest_cache
