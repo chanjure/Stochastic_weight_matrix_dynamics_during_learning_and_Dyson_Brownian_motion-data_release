@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/837909488.svg)](https://zenodo.org/doi/10.5281/zenodo.13294081)
+
 # Stochastic weight matrix dynamics during learning and Dyson Brownian motion
 
 Data and code release for [arXiv:2407.16427](https://arxiv.org/abs/2407.16427)
