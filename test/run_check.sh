@@ -9,4 +9,3 @@ nbstripout scripts/TSmodel-scaling_analysis.ipynb
 rm -rf ./images/*
 
 pytest -v
-rm *.npz
