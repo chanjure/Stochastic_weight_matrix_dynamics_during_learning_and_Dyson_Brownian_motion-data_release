@@ -25,6 +25,6 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install pytest nbstripout
         python -m pip install -r ./env/requirements.txt
-    - name: Check nbconvert
+    - name: Check nbconvert and pytest
       run: |
         bash ./test/run_check.sh

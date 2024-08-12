@@ -9,7 +9,7 @@ from src.check_mp_scalar import main
 
 def test_SRBM_gen():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--rbm_path', type=str, default="/Users/chanju/Dropbox/Lab/swansea/workspace/Git/SRBM")
+    parser.add_argument('--rbm_path', type=str, default="/home/chanju/Dropbox/Lab/swansea/workspace/Git/SRBM")
     parser.add_argument('--lr', type=float, default=0.1)
     parser.add_argument('--bs', type=int, default=16)
     parser.add_argument('--pname', type=str, default='SRBM-test')
