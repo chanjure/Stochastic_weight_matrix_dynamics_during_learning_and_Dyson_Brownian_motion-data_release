@@ -172,6 +172,5 @@ dependencies:
       - mpmath==1.2.1
       - nbstripout==0.6.1
       - pluggy==1.0.0
-      - pytest==7.3.1
       - tomli==2.0.1
       - scikit-rmt==1.0.0
