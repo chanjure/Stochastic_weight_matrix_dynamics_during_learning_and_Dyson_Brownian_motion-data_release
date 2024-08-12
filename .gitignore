@@ -1,9 +1,8 @@
 *.pdf
-*.txt
 models
 .ipynb_checkpoints
-test
 *.swp
 .pytest_cache
 __pycache__
 .coverage
+logs/*
