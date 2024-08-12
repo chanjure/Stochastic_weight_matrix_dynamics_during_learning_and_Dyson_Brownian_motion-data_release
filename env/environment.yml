@@ -174,3 +174,5 @@ dependencies:
       - pluggy==1.0.0
       - tomli==2.0.1
       - scikit-rmt==1.0.0
+      - jupyter==1.0.0
+      - jupyterlab==3.6.3
