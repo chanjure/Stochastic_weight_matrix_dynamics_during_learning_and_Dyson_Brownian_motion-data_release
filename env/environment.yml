@@ -170,7 +170,6 @@ dependencies:
       - exceptiongroup==1.1.1
       - iniconfig==2.0.0
       - mpmath==1.2.1
-      - nbstripout==0.6.1
       - pluggy==1.0.0
       - tomli==2.0.1
       - scikit-rmt==1.0.0
