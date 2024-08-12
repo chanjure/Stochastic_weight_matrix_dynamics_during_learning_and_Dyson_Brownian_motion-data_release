@@ -17,7 +17,7 @@ def main(args):
   project = args.pname
   project_name = project+'_lr'+str(lr)+'n'+str(noise)+'bs'+str(batch_size)
   print(project_name)
-  model_dir = "../models/" + project + '/' + project_name + '/'
+  model_dir = "./models/" + project + '/' + project_name + '/'
 
   os.system("mkdir -p "+model_dir)
 

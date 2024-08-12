@@ -13,6 +13,23 @@ Trained SRBM and TS models are in ```data/```.
 2. SRBM-scale: SRBM trained at different values of step size and batch sizes.
 3. TSmodel: Teacher Student model trained at different values of step size and batch sizes.
 
+Setting up the environment
+--------------------------
+
+The code is tested on Python 3.8, 3.9, and 3.10.
+
+For conda users, you can create a new environment with the following command:
+
+```conda env create -f env/environment.yml -n qftml```
+
+Then, activate the environment:
+
+```conda activate qftml```
+
+For pip users, you can install the required packages with the following command:
+
+```python3 -m pip install -r env/requirements.txt```
+
 Reproducing the plots
 ---------------------
 
@@ -29,6 +46,11 @@ Regenerating the trained models
 -------------------------------
 
 The models saved in ```data/``` are generated from the training script in ```scripts/```.
+
+The SRBM package is needed to regenerate trained models for Gaussian RBM case. You can install the package from [SRBM](https://github.com/chanjure/SRBM).
+
+Then change the ```$SRBMDIR``` in ```scripts/submit_train-scalar_phase.sh``` to the path where you installed the SRBM package.
+
 
 1. submit_train-scalar_phase.sh: Train SRBM with the given step size, batch size, epochs, and the number of seeds. [SRBM](https://github.com/chanjure/SRBM) package is needed.
 2. submit_train-tsmodel.sh: Train the teacher-student model with the given step size, batch size, and the number of seeds. 

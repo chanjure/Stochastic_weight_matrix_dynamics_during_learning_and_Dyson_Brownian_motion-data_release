@@ -12,10 +12,9 @@ import torch
 
 import random
 
-
-
 def main(args):
   
+  print("Using RBM from: ", args.rbm_path)
   sys.path.append(args.rbm_path)
   import RBM
 
@@ -33,7 +32,7 @@ def main(args):
   project = args.pname
   project_name = project+'_lr'+str(lr)+'bs'+str(batch_size)
   print(project_name)
-  model_dir = "../models/" + project + '/' + project_name + '/'
+  model_dir = "./models/" + project + '/' + project_name + '/'
   
   os.system("mkdir -p "+model_dir)
   
