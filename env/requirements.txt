@@ -1,6 +1,6 @@
 matplotlib==3.7.1
 numpy==1.24.3
 torch==2.0.0
-torchvision==0.15.0
+torchvision==0.15.1
 scikit-rmt==1.0.0
 notebook==6.5.6
