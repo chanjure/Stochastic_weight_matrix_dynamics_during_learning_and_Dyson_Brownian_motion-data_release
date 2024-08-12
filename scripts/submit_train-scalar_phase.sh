@@ -1,4 +1,4 @@
-SRBMDIR=/Users/chanju/Dropbox/Lab/swansea/workspace/Git/SRBM/ # Change this to your SRBM directory
+SRBMDIR=../SRBM # Change this to your SRBM directory
 BINDIR=../src/
 PNAME=SRBM-scalar # Project name. The data will be saved in ./models/${PNAME}
 BS=16 # Batch size

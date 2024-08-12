@@ -48,7 +48,8 @@ Regenerating the trained models
 
 The models saved in ```data/``` are generated from the training script in ```scripts/```.
 
-The SRBM package is needed to regenerate trained models for Gaussian RBM case. You can install the package from [SRBM](https://github.com/chanjure/SRBM).
+The SRBM package is needed to regenerate trained models for Gaussian RBM case.
+It is included in this repository as a submodule but it can be also directly installed from [SRBM](https://github.com/chanjure/SRBM).
 
 Then change the ```$SRBMDIR``` in ```scripts/submit_train-scalar_phase.sh``` to the path where you installed the SRBM package.
 
