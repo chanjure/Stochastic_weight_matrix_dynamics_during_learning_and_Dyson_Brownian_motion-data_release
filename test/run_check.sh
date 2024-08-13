@@ -8,5 +8,5 @@ nbstripout scripts/TSmodel-scaling_analysis.ipynb
 
 rm -rf ./images/*
 
-python -m pytest
+python -m pytest -v --cov-config=.coveragerc --cov=./ test/
 rm -rf ./models/*

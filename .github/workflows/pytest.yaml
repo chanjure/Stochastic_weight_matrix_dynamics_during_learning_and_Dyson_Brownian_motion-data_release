@@ -30,7 +30,6 @@ jobs:
     - name: Check nbconvert and pytest
       run: |
         bash ./test/run_check.sh
-        pytest --cov=./
     - name: Upload coverage to codecov
       run: |
         codecov
