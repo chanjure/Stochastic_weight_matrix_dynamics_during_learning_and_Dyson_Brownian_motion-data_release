@@ -30,6 +30,7 @@ jobs:
     - name: Check nbconvert and pytest
       run: |
         bash ./test/run_check.sh
-    - name: Upload coverage to codecov
-      run: |
-        codecov
+    - name: Upload coverage reports to Codecov
+      uses: codecov/codecov-action@v4.0.1
+      with:
+      token: ${{ secrets.CODECOV_TOKEN }}

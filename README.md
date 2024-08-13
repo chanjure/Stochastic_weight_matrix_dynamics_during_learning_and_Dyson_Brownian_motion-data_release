@@ -1,5 +1,6 @@
 [![DOI](https://zenodo.org/badge/837909488.svg)](https://zenodo.org/doi/10.5281/zenodo.13294081)
 [![Run tests](https://github.com/chanjure/Stochastic_weight_matrix_dynamics_during_learning_and_Dyson_Brownian_motion-data_release/actions/workflows/pytest.yaml/badge.svg?event=push)](https://github.com/chanjure/Stochastic_weight_matrix_dynamics_during_learning_and_Dyson_Brownian_motion-data_release/actions/workflows/pytest.yaml)
+[![codecov](https://codecov.io/github/chanjure/Stochastic_weight_matrix_dynamics_during_learning_and_Dyson_Brownian_motion-data_release/graph/badge.svg?token=WNARB26ICQ)](https://codecov.io/github/chanjure/Stochastic_weight_matrix_dynamics_during_learning_and_Dyson_Brownian_motion-data_release)
 
 # Stochastic weight matrix dynamics during learning and Dyson Brownian motion
 
