@@ -6,6 +6,15 @@
 
 Data and code release for [arXiv:2407.16427](https://arxiv.org/abs/2407.16427)
 
+Cloning the repository
+----------------------
+
+Gaussian RBM data is generated using the [SRBM](https://github.chanjure/SRBM) package, which is included in this repository as a submodule.
+
+To download the repository with the submodule, use the following command:
+
+```git clone --recurse-submodules git@github.com:chanjure/Stochastic_weight_matrix_dynamics_during_learning_and_Dyson_Brownian_motion-data_release.git```
+
 Trained models
 --------------
 
@@ -57,3 +66,4 @@ Then change the ```$SRBMDIR``` in ```scripts/submit_train-scalar_phase.sh``` to 
 
 1. submit_train-scalar_phase.sh: Train SRBM with the given step size, batch size, epochs, and the number of seeds. [SRBM](https://github.com/chanjure/SRBM) package is needed.
 2. submit_train-tsmodel.sh: Train the teacher-student model with the given step size, batch size, and the number of seeds. 
+
